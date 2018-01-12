@@ -9,10 +9,11 @@ var guest = prompt('Hi there!.  I\'m Phil and I would like you to take a quick q
 
 alert(guest + ', it is nice to meet you!');
 
-var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.');
+var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.').toLowerCase();
 
-console.log(tvShow);
+console.log('tvShow');
 if(tvShow === 'yes' || tvShow === 'y'){
+    alert('Me too!')
     stars++;
 } else {
     alert('Ah, you don\'t?  I love to binge watch!');
@@ -20,10 +21,11 @@ if(tvShow === 'yes' || tvShow === 'y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
-var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?  Please use yes or no.');
+var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?  Please use yes or no.').toUpperCase();
 
-console.log(pacific);
-if(pacific === 'yes' || pacific === 'y'){
+console.log('pacific');
+if(pacific === 'Yes' || pacific === 'Y'){
+    alert('I love the Pacific Northwest!')
     stars++;
 } else{
     alert('Really?  But it\'s so cool here?');
@@ -33,7 +35,7 @@ alert(guest + ', you currently have ' + stars + ' stars.');
 
 var game = prompt('So, do you like to play video games, ' + guest +'? Please use yes or no');
 
-console.log(game);
+console.log('game');
 if(game === 'yes' || game === 'y'){
     stars++;
 } else{
@@ -43,7 +45,7 @@ if(game === 'yes' || game === 'y'){
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 var exercise = prompt('Well, ' + guest + ', do you like to workout?  Please use yes or no.');
-console.log(exercise);
+console.log('exercise');
 if(exercise === 'no' || exercise === 'n'){
     stars++;
 } else{
@@ -53,7 +55,7 @@ if(exercise === 'no' || exercise === 'n'){
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 var animation = prompt('Do you like animated movies, ' + guest + '?');
-console.log(animation);
+console.log('animation');
 if(animation === 'yes' || animation === 'y'){
     stars++;
 } else{
