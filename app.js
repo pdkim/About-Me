@@ -11,7 +11,8 @@ alert(guest + ', it is nice to meet you!');
 
 var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.').toLowerCase();
 
-console.log('tvShow');
+console.log('Do you like to watch TV shows?');
+
 if(tvShow === 'yes' || tvShow === 'y'){
     alert('Me too!')
     stars++;
@@ -23,7 +24,8 @@ alert(guest + ', you currently have ' + stars + ' stars.');
 
 var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?  Please use yes or no.').toUpperCase();
 
-console.log('pacific');
+console.log('Do you like the Pacific Northwest?');
+
 if(pacific === 'Yes' || pacific === 'Y'){
     alert('I love the Pacific Northwest!')
     stars++;
@@ -33,10 +35,12 @@ if(pacific === 'Yes' || pacific === 'Y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
-var game = prompt('So, do you like to play video games, ' + guest +'? Please use yes or no');
+var game = prompt('So, do you like to play video games, ' + guest +'? Please use yes or no').toUpperCase();
 
-console.log('game');
-if(game === 'yes' || game === 'y'){
+console.log('Do you like playing video games?');
+
+if(game === 'Yes' || game === 'Y'){
+    alert('Sweet! We should play sometime!')
     stars++;
 } else{
     alert('That\'s ok.  I understand.');
@@ -44,9 +48,12 @@ if(game === 'yes' || game === 'y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
-var exercise = prompt('Well, ' + guest + ', do you like to workout?  Please use yes or no.');
-console.log('exercise');
+var exercise = prompt('Well, ' + guest + ', do you like to workout?  Please use yes or no.').toLowerCase();
+
+console.log('Do you enjoy exercising?');
+
 if(exercise === 'no' || exercise === 'n'){
+    alert('It\'s good to know I\'m not the only one who doesn\'t like to work out.');
     stars++;
 } else{
     alert('That\'s good, but unfortunately, I\'m too lazy.');
@@ -54,16 +61,19 @@ if(exercise === 'no' || exercise === 'n'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
-var animation = prompt('Do you like animated movies, ' + guest + '?');
-console.log('animation');
-if(animation === 'yes' || animation === 'y'){
+var animation = prompt('Do you like animated movies, ' + guest + '?').toUpperCase();
+
+console.log('Do you like animation or animated movies?');
+
+if(animation === 'Yes' || animation === 'Y'){
+    alert('Yeah, animation is awesome!')
     stars++;
 } else{
     alert('That\'s a shame.  I really like animated movies.');
 }
 
 if(stars > 3){
-    alert('Wow!, we have so much in common!');
+    alert('Wow! We have so much in common!');
 } else{
     alert('Looks like we don\'t have much in common.  That\'s ok.');
 }
