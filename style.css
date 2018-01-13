@@ -1,19 +1,37 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: gold;
+    background-color: darkgrey;
 }
 
-h1 {
-    color: rgb(80, 11, 11);
+#phillip {
+    color: whitesmoke;
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    background-color: rgb(41, 59, 136);
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 24;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    background-color: rgb(41, 59, 136);
 }
 
 p {
-    color: blue;
-    font-family: fantasy;
+    color: rgb(6, 3, 43);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
 }
 
 .reply {
     color: rgb(30, 14, 70);
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
+    font-style: italic;
+}
+
+#questionaire {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
 }
