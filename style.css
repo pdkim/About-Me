@@ -1,6 +1,6 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 #phillip {
@@ -11,16 +11,23 @@
 }
 
 h3 {
-    color: whitesmoke;
-    font-size: 24;
+    color: navy ;
+    font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    background-color: rgb(41, 59, 136);
-}
+    text-decoration: underline;
+    }
 
 p {
     color: rgb(6, 3, 43);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
+}
+
+li {
+    color: rgb(6, 3, 43);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .reply {
