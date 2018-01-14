@@ -74,7 +74,7 @@ if(animation === 'Yes' || animation === 'Y'){
   alert('That\'s a shame.  I really like animated movies.');
 }
 
-alert(guest + ', you currently have ' + stars + ' stars.');*/
+alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 6
 var countries = prompt('How many countries do you think I have been to?  Hint: it\'s less than 10', 'Use numerical values for your answer.');
@@ -95,15 +95,35 @@ while(countries !== '5') {
     stars++; }
 }
 
-alert(guest + ', you currently have ' + stars + ' stars.');
+alert(guest + ', you currently have ' + stars + ' stars.');*/
 
 //question 7
-//var live = prompt('Ok, ' + guest + ', try to list a state other than Washington that I have visited/lived in.');
+var live = prompt('Ok, ' + guest + ', try to list a state other than Washington that I have visited/lived in.');
 
-//console.log('Other states questions');
+console.log('Other states questions');
 
-//var states =['Oregon', 'California', 'Louisiana', 'Florida', 'New York', 'Virgina', 'Idaho', 'Nevada', 'Massachusetts'];
+var states = ['Oregon', 'California', 'Florida', 'Louisiana', 'New York', 'Idaho', 'Massachusetts', 'Virginia'];
 
+for(var i = 5; i > 0; i--) {
+  for(var j = 0; j < states.length; j++){
+    if(live === states[j]) {
+      console.log(live);
+      alert('Yes! You are correct!');
+      stars++;
+      j = states.length;
+      i = -1;
+    }
+  }
+  if(i > 0) {
+    alert('Sorry, I have not been there before.  You have ' + i + ' attempts left!');
+    live = prompt('Ok, ' + guest + ', try another state!');
+  }
+  if(i === 0) {
+    alert('Oh no! you ran out of attempts!  Better luck next time!');
+  }
+}
+
+alert(guest + ', you currently have ' + stars + ' stars.');
 
 /*if(stars > 3){
   alert('Wow! We have so much in common!');
