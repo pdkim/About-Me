@@ -82,11 +82,13 @@ var countries = prompt('How many countries do you think I have been to?  Hint: i
 console.log('Countries visited question');
 
 while(countries !== '5') {
-  alert('incorrect');
-  console.log(countries);
-  if(countries !== '5') {
+  if(countries < '5') {
+    alert('I have visited more than that');
     countries = prompt('How many countries do you think I have been to?  You have 5 attempts to guess.  Hint: it\'s less than 10', 'Use numerical values for your answer.');
-    console.log(countries);
+  }
+  if(countries > '5') {
+    alert('I wish I have been to that many countries!');
+    countries = prompt('How many countries do you think I have been to?  You have 5 attempts to guess.  Hint: it\'s less than 10', 'Use numerical values for your answer.');
   }
   if(countries === '5') {
     alert('That\'s right!  I\'ve been to 5 countries!');
