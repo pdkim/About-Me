@@ -23,6 +23,12 @@ p {
     font-size: 12px;
 }
 
+article {
+    width: 250px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
 li {
     color: rgb(6, 3, 43);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

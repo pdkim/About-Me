@@ -11,7 +11,8 @@ console.log('The guest name');
 
 alert(guest + ', it is nice to meet you!');
 
-/*var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.').toLowerCase();
+//question 1
+var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.').toLowerCase();
 
 console.log('TV Show question');
 
@@ -24,6 +25,7 @@ if(tvShow === 'yes' || tvShow === 'y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
+//question 2
 var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?  Please use yes or no.').toUpperCase();
 
 console.log('Pacific Northwest question');
@@ -37,6 +39,7 @@ if(pacific === 'Yes' || pacific === 'Y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
+//question 3
 var game = prompt('So, do you like to play video games, ' + guest +'? Please use yes or no').toUpperCase();
 
 console.log('Video game question');
@@ -50,6 +53,7 @@ if(game === 'Yes' || game === 'Y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
+//question 4
 var tennis = prompt('Well, ' + guest + ', do you enjoy playing tennis?  Please use yes or no.').toLowerCase();
 
 console.log('Tennis question');
@@ -63,6 +67,7 @@ if(tennis === 'yes' || tennis === 'y'){
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
+//question 5
 var animation = prompt('Do you like animated movies, ' + guest + '?').toUpperCase();
 
 console.log('Animation question');
@@ -95,14 +100,14 @@ while(countries !== '5') {
     stars++; }
 }
 
-alert(guest + ', you currently have ' + stars + ' stars.');*/
+alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 7
 var live = prompt('Ok, ' + guest + ', try to list a state other than Washington that I have visited/lived in.');
 
 console.log('Other states questions');
 
-var states = ['Oregon', 'California', 'Florida', 'Louisiana', 'New York', 'Idaho', 'Massachusetts', 'Virginia'];
+var states = ['Oregon', 'California', 'Florida', 'Louisiana', 'New York', 'Idaho', 'Massachusetts', 'Virginia', 'Illinois'];
 
 for(var i = 5; i > 0; i--) {
   for(var j = 0; j < states.length; j++){
@@ -111,22 +116,19 @@ for(var i = 5; i > 0; i--) {
       alert('Yes! You are correct!');
       stars++;
       j = states.length;
-      i = -1;
+      i = 0;
     }
   }
   if(i > 0) {
     alert('Sorry, I have not been there before.  You have ' + i + ' attempts left!');
     live = prompt('Ok, ' + guest + ', try another state!');
   }
-  if(i === 0) {
-    alert('Oh no! you ran out of attempts!  Better luck next time!');
-  }
 }
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
-/*if(stars > 3){
+if(stars >= 4){
   alert('Wow! We have so much in common!');
 } else{
   alert('Looks like we don\'t have much in common.  That\'s ok.');
-}*/
+}
