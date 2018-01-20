@@ -12,74 +12,90 @@ console.log('The guest name');
 alert(guest + ', it is nice to meet you!');
 
 //question 1
-var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.').toLowerCase();
+function question1() {
+  var tvShow = prompt('Ok, ' + guest + ', let\'s start by asking if you like to watch TV shows?  Please enter yes or no for your response.').toLowerCase();
 
-console.log('TV Show question');
+  console.log('TV Show question');
 
-if(tvShow === 'yes' || tvShow === 'y'){
-  alert('Me too!');
-  stars++;
-} else {
-  alert('Ah, you don\'t?  I love to binge watch!');
+  if(tvShow === 'yes' || tvShow === 'y'){
+    alert('Me too!');
+    stars++;
+  } else {
+    alert('Ah, you don\'t?  I love to binge watch!');
+  }
+
+  alert(guest + ', you currently have ' + stars + ' stars.');
 }
-
-alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 2
-var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?', 'Please use yes or no.').toLowerCase();
+function question2() {
+  var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?', 'Please use yes or no.').toLowerCase();
 
-console.log('Pacific Northwest question');
+  console.log('Pacific Northwest question');
 
-if(pacific === 'yes' || pacific === 'y'){
-  alert('I love the Pacific Northwest!');
-  stars++;
-} else{
-  alert('Really?  But it\'s so cool here?');
+  if(pacific === 'yes' || pacific === 'y'){
+    alert('I love the Pacific Northwest!');
+    stars++;
+  } else{
+    alert('Really?  But it\'s so cool here?');
+  }
+
+  alert(guest + ', you currently have ' + stars + ' stars.');
 }
-
-alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 3
-var game = prompt('So, do you like to play video games, ' + guest +'?', 'Please use yes or no').toLowerCase();
+function question3() {
+  var game = prompt('So, do you like to play video games, ' + guest +'?', 'Please use yes or no').toLowerCase();
 
-console.log('Video game question');
+  console.log('Video game question');
 
-if(game === 'yes' || game === 'y'){
-  alert('Sweet! We should play sometime!');
-  stars++;
-} else{
-  alert('I understand.  Some of my good friends don\'t play videos games at all!');
+  if(game === 'yes' || game === 'y'){
+    alert('Sweet! We should play sometime!');
+    stars++;
+  } else{
+    alert('I understand.  Some of my good friends don\'t play videos games at all!');
+  }
+
+  alert(guest + ', you currently have ' + stars + ' stars.');
 }
-
-alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 4
-var tennis = prompt('Well, ' + guest + ', do you enjoy playing tennis?', 'Please use yes or no.').toLowerCase();
+function question4() {
+  var tennis = prompt('Well, ' + guest + ', do you enjoy playing tennis?', 'Please use yes or no.').toLowerCase();
 
-console.log('Tennis question');
+  console.log('Tennis question');
 
-if(tennis === 'yes' || tennis === 'y'){
-  alert('Really?  I love playing tennis.  I haven\'t played in a while, but we should sometime.');
-  stars++;
-} else{
-  alert('Not your kind of sport?  That\'s ok, I\'m sure we could something soon.');
+  if(tennis === 'yes' || tennis === 'y'){
+    alert('Really?  I love playing tennis.  I haven\'t played in a while, but we should sometime.');
+    stars++;
+  } else{
+    alert('Not your kind of sport?  That\'s ok, I\'m sure we could something soon.');
+  }
+
+  alert(guest + ', you currently have ' + stars + ' stars.');
 }
-
-alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 5
-var animation = prompt('Do you like animated movies, ' + guest + '?').toLowerCase();
+function question5() {
+  var animation = prompt('Do you like animated movies, ' + guest + '?').toLowerCase();
 
-console.log('Animation question');
+  console.log('Animation question');
 
-if(animation === 'yes' || animation === 'y'){
-  alert('Yeah! Animation is awesome!');
-  stars++;
-} else{
-  alert('That\'s a shame.  I really like animated movies.');
+  if(animation === 'yes' || animation === 'y'){
+    alert('Yeah! Animation is awesome!');
+    stars++;
+  } else{
+    alert('That\'s a shame.  I really like animated movies.');
+  }
+
+  alert(guest + ', you currently have ' + stars + ' stars.');
 }
 
-alert(guest + ', you currently have ' + stars + ' stars.');
+question1();
+question2();
+question3();
+question4();
+question5();
 
 //question 6
 var countries = prompt('How many countries do you think I have been to?  Hint: it\'s less than 10', 'Use numerical values for your answer.');
