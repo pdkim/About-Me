@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: lightgrey;
 }
 
@@ -23,7 +23,7 @@ p {
     font-size: 12px;
 }
 
-article {
+ul {
     width: 250px;
     border-style: dashed;
     border-width: 1px;
@@ -38,9 +38,8 @@ li {
 
 .reply {
     color: rgb(30, 14, 70);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Kavivanar', cursive;
     font-size: 12px;
-    font-style: italic;
 }
 
 #questionaire {
