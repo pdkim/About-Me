@@ -10,10 +10,23 @@
     background-color: rgb(41, 59, 136);
 }
 
+#introduction {
+    margin: 10px;
+    float: center;
+    text-align: center;
+    width: 1000px;
+}
+
+img {
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+
 h3 {
     color: navy ;
     font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     text-decoration: underline;
     }
 
@@ -23,10 +36,11 @@ p {
     font-size: 12px;
 }
 
-ul {
+#occupation ul {
     width: 250px;
     border-style: dashed;
     border-width: 1px;
+    text-align: left; 
 }
 
 li {
@@ -36,10 +50,20 @@ li {
     font-style: italic;
 }
 
+#compatibility {
+    width: 600px;
+    text-align: center;
+}
+
+.questions {
+    text-align: left;
+}
+
 .reply {
     color: rgb(30, 14, 70);
     font-family: 'Kavivanar', cursive;
     font-size: 12px;
+    text-align: left;
 }
 
 #questionaire {
