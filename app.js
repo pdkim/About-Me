@@ -26,11 +26,11 @@ if(tvShow === 'yes' || tvShow === 'y'){
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 2
-var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?  Please use yes or no.').toUpperCase();
+var pacific = prompt('Ok, ' + guest + ', do you like the Pacific northwest?', 'Please use yes or no.').toLowerCase();
 
 console.log('Pacific Northwest question');
 
-if(pacific === 'Yes' || pacific === 'Y'){
+if(pacific === 'yes' || pacific === 'y'){
   alert('I love the Pacific Northwest!');
   stars++;
 } else{
@@ -40,11 +40,11 @@ if(pacific === 'Yes' || pacific === 'Y'){
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 3
-var game = prompt('So, do you like to play video games, ' + guest +'? Please use yes or no').toUpperCase();
+var game = prompt('So, do you like to play video games, ' + guest +'?', 'Please use yes or no').toLowerCase();
 
 console.log('Video game question');
 
-if(game === 'Yes' || game === 'Y'){
+if(game === 'yes' || game === 'y'){
   alert('Sweet! We should play sometime!');
   stars++;
 } else{
@@ -54,7 +54,7 @@ if(game === 'Yes' || game === 'Y'){
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 4
-var tennis = prompt('Well, ' + guest + ', do you enjoy playing tennis?  Please use yes or no.').toLowerCase();
+var tennis = prompt('Well, ' + guest + ', do you enjoy playing tennis?', 'Please use yes or no.').toLowerCase();
 
 console.log('Tennis question');
 
@@ -68,11 +68,11 @@ if(tennis === 'yes' || tennis === 'y'){
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 5
-var animation = prompt('Do you like animated movies, ' + guest + '?').toUpperCase();
+var animation = prompt('Do you like animated movies, ' + guest + '?').toLowerCase();
 
 console.log('Animation question');
 
-if(animation === 'Yes' || animation === 'Y'){
+if(animation === 'yes' || animation === 'y'){
   alert('Yeah! Animation is awesome!');
   stars++;
 } else{
@@ -103,11 +103,11 @@ while(countries !== '5') {
 alert(guest + ', you currently have ' + stars + ' stars.');
 
 //question 7
-var live = prompt('Ok, ' + guest + ', try to list a state other than Washington that I have visited/lived in.');
+var live = prompt('Ok, ' + guest + ', try to list a state other than Washington that I have visited/lived in.').toLowerCase();
 
 console.log('Other states questions');
 
-var states = ['Oregon', 'California', 'Florida', 'Louisiana', 'New York', 'Idaho', 'Massachusetts', 'Virginia', 'Illinois'];
+var states = ['oregon', 'california', 'florida', 'louisiana', 'new york', 'idaho', 'massachusetts', 'virginia', 'illinois'];
 
 for(var i = 5; i > 0; i--) {
   for(var j = 0; j < states.length; j++){

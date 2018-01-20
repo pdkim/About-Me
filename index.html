@@ -4,79 +4,89 @@
         <title>About Me</title>
         <!-- linked CSS file.  Apply as much as you can with your current understanding -->
         <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
     </head>
     <body>
         <header>
             <h1 id="phillip">About Phillip Kim</h1>
         </header>
-        <script src = "app.js"></script>
+        <!-- <script src = "app.js"></script> -->
         
-        <h3>Introduction</h3>
-        <p>Hello, My name is Phillip Kim and I am a seeking a chance to learn some coding in hopes of becoming a software developer.  Though my experience in coding is minimal, I have enjoyed it now and hope to continue my studies here at Codefellows.  Allow me to provide some details about myself.</p>
+        <div id="introduction">
+            <h3>Introduction</h3>
+            <p>Hello, My name is Phillip Kim and I am a seeking a chance to learn some coding in hopes of becoming a software developer.  Though my experience in coding is minimal, I have enjoyed it now and hope to continue my studies here at Codefellows.  Allow me to provide some details about myself.</p>
+        </div>
 
-        <h3>Current residence and contact information</h3>
-        <p>Currently live in Kirkland, WA.  If you wish to contact me, the best ways to cantact me is in the morning or early afternoon by email or text me on my cell phone.<br>
-        Email: phildkim@gmail.com<br>
-        Phone: (593)593-2250</p>
+        <div id="contact">
+            <h3>Current residence and contact information</h3>
+            <p>Currently live in Kirkland, WA.  If you wish to contact me, the best ways to cantact me is in the morning or early afternoon by email or text me on my cell phone.
+            <p>Email: phildkim@gmail.com</p>
+            <p>Phone: (503)593-2250</p>
+        </div>
 
-        <h3>Current Occupation</h3>
-        <p>Software Test Engineer I for Lionbridge, working at the Microsoft campus.</p>
-        <p>My responsibilities include the following:</p>
-        <article>
+        <div id="occupation">
+            <h3>Current Occupation</h3>
+            <p>Software Test Engineer I for Lionbridge, working at the Microsoft campus.</p>
+            <p>My responsibilities include the following:</p>
+                <ul>
+                    <li>Leading a team of 18 game testers for the Backwards compatibiltiy section of Microsoft.</li>
+                    <li>Creating and updating test plans and test cases.</li>
+                    <li>Vet and send all bug reports to Microsoft via Visual Studios.</li>
+                    <li>Coordinate and communicate with offsite testing sites and locations.</li>
+                </ul>
+        </div>
+
+        <div id="hobbies">
+            <h3>Phil's Hobbies</h3>
+            <p>This is what I like to do during my free time (no particular order):</p>
+            <ol>
+                <li>I love to binge watch movies and tv shows.</li>
+                <li>As you can imagine since I am a game tester, I love to play video games; mainly RPGs.</li>
+                <li>I haven't played in a while, but I love to play tennis.</li>
+            </ol>
+        </div>
+
+        <div id="questions">
+            <h3 id="questionaire">Phil's Questionaires</h3>
+            <p>When you first visted, you answered a few questions.  Each thing we had in common rewarded you with a star.  The more stars you got, the more things we had in common.  Below are the the questions asked and my own answers below.</p>
+            <p>1. Do you like to watch TV Shows?</p>
+            <p class="reply">P: I <em>love</em> binge watching TV shows.  Netflix is my best friend.</p>
+    
+            <p>2. Do you like the Pacific Northwest?</p>
+            <p class="reply">P: I honestly can't think of another place would rather live in.</p>
+    
+            <p>3. Do you like to play video games?</p>
+            <p class="reply">P: I play a lot, mainly on my PC or the playstation.</p>
+    
+            <p>4. Do you like to play tennis?</p>
+            <p class="reply">P: I used to play tennis in high school.  I haven't played for quite some time, but I enjoy playing it.</p>
+            
+            <p>5. Do you like animated movies?</p>
+            <p class="reply">P: Of course.  One time, I wanted to be an animator.</p>
+    
+            <p>6. How many countries do you think I have gone to?</p>
+            <p class="reply">P: I have been to 5 different countries:</p>
+            <ol>
+                <li class="reply">Japan</li>
+                <li class="reply">South Korea</li>
+                <li class="reply">Canada</li>
+                <li class="reply">Mexico</li>
+                <li class="reply">England</li>
+            </ol>
+    
+            <p>7. How many states do you think I been to or lived in?</p>
+            <p class="reply">P: I have been to the following states:</p>
             <ul>
-                <li>Leading a team of 18 game testers for the Backwards compatibiltiy section of Microsoft.</li>
-                <li>Creating and updating test plans and test cases.</li>
-                <li>Vet and send all bug reports to Microsoft via Visual Studios.</li>
-                <li>Coordinate and communicate with offsite testing sites and locations.</li>
+                <li class="reply">Oregon</li>
+                <li class="reply">California</li>
+                <li class="reply">Illinois</li>
+                <li class="reply">New York</li>
+                <li class="reply">Florida</li>
+                <li class="reply">Louisiana</li>
+                <li class="reply">Virginia</li>
+                <li class="reply">Massachusetts</li>
             </ul>
-        </article>
-
-        <h3>Phil's Hobbies</h3>
-        <p>This is what I like to do during my free time (no particular order):</p>
-        <ol>
-            <li>I love to binge watch movies and tv shows.</li>
-            <li>As you can imagine since I am a game tester, I love to play video games; mainly RPGs.</li>
-            <li>I haven't played in a while, but I love to play tennis.</li>
-        </ol>
-
-        <h3 id="questionaire">Phil's Questionaires</h3>
-        <p>When you first visted, you answered a few questions.  Each thing we had in common rewarded you with a star.  The more stars you got, the more things we had in common.  Below are the the questions asked and my own answers below.</p>
-        <p>1. Do you like to watch TV Shows?</p>
-        <p class="reply">P: I <em>love</em> binge watching TV shows.  Netflix is my best friend.</p><br>
-
-        <p>2. Do you like the Pacific Northwest?</p>
-        <p class="reply">P: I honestly can't think of another place would rather live in.</p><br>
-
-        <p>3. Do you like to play video games?</p>
-        <p class="reply">P: I play a lot, mainly on my PC or the playstation.</p><br>
-
-        <p>4. Do you like to play tennis?</p>
-        <p class="reply">P: I used to play tennis in high school.  I haven't played for quite some time, but I enjoy playing it.</p><br>
-        
-        <p>5. Do you like animated movies?</p>
-        <p class="reply">P: Of course.  One time, I wanted to be an animator.</p><br>
-
-        <p>6. How many countries do you think I have gone to?</p>
-        <p class="reply">P: I have been to 5 different countries:</p>
-        <ol>
-            <li class="reply">Japan</li>
-            <li class="reply">South Korea</li>
-            <li class="reply">Canada</li>
-            <li class="reply">Mexico</li>
-            <li class="reply">England</li>
-        </ol><br>
-
-        <p>7. How many states do you think I been to or lived in?</p>
-        <p class="reply">P: I have been to the following states:</p>
-        <ul>
-            <li class="reply">Oregon</li>
-            <li class="reply">California</li>
-            <li class="reply">Illinois</li>
-            <li class="reply">New York</li>
-            <li class="reply">Florida</li>
-            <li class="reply">Louisiana</li>
-            <li class="reply">Virginia</li>
-            <li class="reply">Massachusetts</li>
-        </ul>
+        </div>
     </body>
 </html>
