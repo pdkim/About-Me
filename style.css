@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: lightgrey;
 }
 
@@ -10,10 +10,23 @@
     background-color: rgb(41, 59, 136);
 }
 
+#introduction {
+    margin: 10px;
+    float: center;
+    text-align: center;
+    width: 1000px;
+}
+
+img {
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+
 h3 {
     color: navy ;
     font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     text-decoration: underline;
     }
 
@@ -23,6 +36,13 @@ p {
     font-size: 12px;
 }
 
+#occupation ul {
+    width: 250px;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: left; 
+}
+
 li {
     color: rgb(6, 3, 43);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,11 +50,20 @@ li {
     font-style: italic;
 }
 
+#compatibility {
+    width: 600px;
+    text-align: center;
+}
+
+.questions {
+    text-align: left;
+}
+
 .reply {
     color: rgb(30, 14, 70);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Kavivanar', cursive;
     font-size: 12px;
-    font-style: italic;
+    text-align: left;
 }
 
 #questionaire {
