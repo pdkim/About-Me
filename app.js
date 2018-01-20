@@ -24,6 +24,7 @@ function question1() {
     alert('Ah, you don\'t?  I love to binge watch!');
   }
 
+
   alert(guest + ', you currently have ' + stars + ' stars.');
 }
 
@@ -39,6 +40,7 @@ function question2() {
   } else{
     alert('Really?  But it\'s so cool here?');
   }
+
 
   alert(guest + ', you currently have ' + stars + ' stars.');
 }
@@ -56,6 +58,7 @@ function question3() {
     alert('I understand.  Some of my good friends don\'t play videos games at all!');
   }
 
+
   alert(guest + ', you currently have ' + stars + ' stars.');
 }
 
@@ -71,6 +74,7 @@ function question4() {
   } else{
     alert('Not your kind of sport?  That\'s ok, I\'m sure we could something soon.');
   }
+
 
   alert(guest + ', you currently have ' + stars + ' stars.');
 }
@@ -114,7 +118,7 @@ while(countries !== '5') {
   if(countries === '5') {
     alert('That\'s right!  I\'ve been to 5 countries!');
     stars++; }
-}
+
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
