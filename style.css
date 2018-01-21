@@ -3,6 +3,10 @@
     background-color: lightgrey;
 }
 
+div {
+    margin: 50px;
+}
+
 #phillip {
     color: whitesmoke;
     font-size: 36px;
@@ -36,7 +40,12 @@ p {
     font-size: 12px;
 }
 
+#contact {
+    margin: 10px;
+}
+
 #occupation ul {
+    background-color: cadetblue;
     width: 250px;
     border-style: dashed;
     border-width: 1px;
@@ -48,6 +57,10 @@ li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     font-style: italic;
+}
+
+#hobbies {
+    margin: 10px;
 }
 
 #compatibility {
@@ -67,7 +80,6 @@ li {
 }
 
 #questionaire {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     text-decoration: underline;
 }
