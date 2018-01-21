@@ -152,3 +152,5 @@ if(stars >= 4){
 } else{
   alert('Looks like we don\'t have much in common.  That\'s ok.');
 }
+
+//done!
