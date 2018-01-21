@@ -118,7 +118,7 @@ while(countries !== '5') {
   if(countries === '5') {
     alert('That\'s right!  I\'ve been to 5 countries!');
     stars++; }
-
+}
 
 alert(guest + ', you currently have ' + stars + ' stars.');
 
